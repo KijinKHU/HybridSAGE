@@ -35,7 +35,7 @@ We already made datasets for learning. If you want to change scheme of dataset t
 
 This model returns items that are K nearest neighbors of the latest item the user has
 interacted.  The distance between two items are measured by Euclidean distance of
-item embeddings, which are learned as outputs of PinSAGE.
+item embeddings, which are learned as outputs of HybridSAGE.
 
 ```
 python model.py ms_data.pkl --num-epochs 300 --num-workers 2 --device cuda:0 --hidden-dims 64
@@ -66,8 +66,6 @@ We already adjust proper parameters for learning data
 
 Note that since the embedding update is done on CPU, it will be significantly slower than doing
 everything on GPU.
-
-The HITS@10 is 0.01241, compared to 0.01220 with SLIM with the same dimensionality.\
 
 
 
