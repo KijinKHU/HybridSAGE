@@ -13,7 +13,6 @@ Graph data in the real world typically includes billions of nodes and tens of bi
 - torchtext==0.5
 
 ## Prepare datasets
-We already made datasets for learning. If you want to change scheme of dataset than you can change them with belows
 
 ### MovieLens 1M
 
