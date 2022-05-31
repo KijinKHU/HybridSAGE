@@ -14,7 +14,7 @@ We already made datasets for learning. If you want to change scheme of dataset t
 1. Download and extract the MovieLens-1M dataset from http://files.grouplens.org/datasets/movielens/ml-1m.zip
    into the current directory.
 2. Run `python process_movielens1m.py ./ml-1m ./mv_data.pkl`.
-   Replace `ml-1m` with the directory you put the `.dat` files, and replace `data.pkl` to
+   Replace `ml-1m` with the directory you put the `.dat` files, and replace `mv_data.pkl` to
    any path you wish to put the output pickle file.
 
 ### Nowplaying-rs
