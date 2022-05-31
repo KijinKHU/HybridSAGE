@@ -1,4 +1,5 @@
-# Hybrid example
+# HybridSAGE
+## Hybrid example
 
 ## Requirements
 
@@ -64,4 +65,4 @@ everything on GPU.
 The HITS@10 is 0.01241, compared to 0.01220 with SLIM with the same dimensionality.\
 
 
-"# HybridSAGE" 
+
