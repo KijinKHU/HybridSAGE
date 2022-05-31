@@ -3,6 +3,9 @@
 ## Efficient Sampling Techniques for Embedding Large Graphs
 실세계의 그래프 데이터는 수십억 개의 노드와 수백억 개의 엣지 데이터를 포함하는 경우가 일반적이다. 초거대 그래프의 경우 메모리 용량의 한계로 다수의 노드와 엣지를 한 번에 모두 고려한 학습이 불가능하다. GraphSAGE는 목적 노드의 이웃을 무작위로 샘플링하고 집계하는 학습 방식을 제안하여 메모리 문제를 해결한다. 더 나아가 PinSAGE는 방문횟수 기반 샘플링을 수행하여 공통분모를 가진 이웃의 정보를 임베딩값 연산에 반영한다. PinSAGE의 학습 속도는 GraphSAGE보다 40%이상 느리지만 모델의 성능을 개선했다. 이에 본 논문에서는 GraphSAGE와 PinSAGE의 샘플링 방식을 융합하여 개선된 성능을 유지하면서 30%이상 효율적인 샘플링 방식을 제안한다.
 
+Graph data in the real world typically includes billions of nodes and tens of billions of edge data. In the case of super-large graphs, it is impossible to learn by evrery nodes and edges at once due to the limitation of memory capacity. GraphSAGE solves the memory problem by proposing a learning method that randomly samples and aggregates the neighbors of the target node. Furthermore, PinSAGE performs sampling based on the number of visits and reflects the information of neighbors with a common denominator in the embedding value calculation. Although the learning rate of PinSAGE is more than 40% slower than that of GraphSAGE, it improves the performance of the model. In this paper, we propose a sampling method that is more than 30% efficient while maintaining improved performance by combining the sampling methods of GraphSAGE and PinSAGE.
+
+
 ## Requirements
 
 - dask
