@@ -1,5 +1,4 @@
 # HybridSAGE
-## Hybrid example
 
 ## Requirements
 
